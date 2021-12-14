@@ -1,0 +1,417 @@
+{
+	"workbench.colorTheme": "Better Solarized Dark Italics",
+	"editor.fontSize": 18,
+	"editor.lineHeight": 30,
+	"editor.fontFamily": "JetBrainsMono NF",
+	"editor.letterSpacing": 0.5,
+	"editor.fontWeight": "400",
+	"editor.fontLigatures": true,
+	"editor.cursorStyle": "line",
+	"editor.renderWhitespace": "all",
+	"editor.snippetSuggestions": "top",
+	// "workbench.startupEditor": "newUntitledFile",
+	"editor.glyphMargin": true,
+	"workbench.editor.enablePreview": false,
+	"explorer.confirmDragAndDrop": false,
+	"files.trimTrailingWhitespace": true,
+	"files.trimFinalNewlines": true,
+	"editor.formatOnSave": true,
+	"prettier.eslintIntegration": true,
+	"eslint.run": "onType",
+	"workbench.fontAliasing": "auto",
+	"terminal.integrated.macOptionIsMeta": true,
+	"workbench.statusBar.feedback.visible": false,
+	"editor.semanticHighlighting.enabled": false,
+	"highlight-matching-tag.styles": {
+		"opening": {
+			"full": {
+				"highlight": "rgba(165, 153, 233, 0.3)"
+			}
+		}
+	},
+	"importCost.largePackageColor": "#EC3A37F5",
+	"importCost.mediumPackageColor": "#B362FF",
+	"importCost.smallPackageColor": "#B362FF",
+
+	// "indentRainbow.colors": [
+	//   "rgba(165, 153, 233,0.5)",
+	//   "rgba(165, 153, 233,0.4)",
+	//   "rgba(165, 153, 233,0.3)",
+	//   "rgba(165, 153, 233,0.2)",
+	//   "rgba(165, 153, 233,0.1)"
+	// ],
+
+	"workbench.startupEditor": "none",
+	"python.defaultInterpreterPath": "C:\\Users\\DG MightyElf\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+	"java.home": "C:\\Program Files\\Java\\jdk-17.0.1",
+	"sonarlint.ls.javaHome": "C:\\Program Files\\Java\\jdk-17.0.1",
+	"sonarlint.pathToNodeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+	"java.help.firstView": "gettingStarted",
+	"tabnine.experimentalAutoImports": true,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	},
+	// "editor.fontLigatures": true,
+	"editor.linkedEditing": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.formatOnPaste": true,
+	"explorer.confirmDelete": false,
+	// "editor.fontFamily": "'Fira Code iScript', Consolas, 'Courier New', monospace",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// "editor.formatOnSave": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"vue-html": "html",
+		"plaintext": "pug"
+	},
+	// "editor.tokenColorCustomizations": {
+	// 	"variables": "#c3e01f",
+	// 	"functions": "#b824ff",
+	// 	"textMateRules": [
+	// 		{
+	// 			"name": "italic font",
+	// 			"scope": [
+	// 				"comment",
+	// 				"keyword",
+	// 				"storage",
+	// 				"keyword.control",
+	// 				"keyword.control.from",
+	// 				"keyword.control.flow",
+	// 				"keyword.operator.new",
+	// 				"keyword.control.import",
+	// 				"keyword.control.export",
+	// 				"keyword.control.default",
+	// 				"keyword.control.trycatch",
+	// 				"keyword.control.conditional",
+	// 				"storage.type",
+	// 				"storage.type.class",
+	// 				"storage.modifier.tsx",
+	// 				"storage.type.function",
+	// 				"storage.modifier.async",
+	// 				"variable.language",
+	// 				"variable.language.this",
+	// 				"variable.language.super",
+	// 				"meta.class",
+	// 				"meta.var.expr",
+	// 				"constant.language.null",
+	// 				"support.type.primitive",
+	// 				"entity.name.method.js",
+	// 				"entity.other.attribute-name",
+	// 				"punctuation.definition.comment",
+	// 				"text.html.basic entity.other.attribute-name",
+	// 				"tag.decorator.js entity.name.tag.js",
+	// 				"tag.decorator.js punctuation.definition.tag.js",
+	// 				"source.js constant.other.object.key.js string.unquoted.label.js"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": "italic"
+	// 			}
+	// 		},
+	// 		{
+	// 			"name": "Comment",
+	// 			"scope": ["comment", "punctuation.definition.comment"],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#C0C0C0"
+	// 			}
+	// 		},
+
+	// 		{
+	// 			"name": "Keyword, Storage",
+	// 			"scope": ["Keyword", "Storage"],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#ea07ff"
+	// 			}
+	// 		},
+
+	// 		{
+	// 			"name": "Keyword Control",
+	// 			"scope": ["keyword.control"],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#ff4a02"
+	// 			}
+	// 		},
+
+	// 		{
+	// 			"scope": "entity.other.attribute-name",
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#02ABEA"
+	// 			}
+	// 		},
+
+	// 		{
+	// 			"name": "entity.name.method.js",
+	// 			"scope": ["entity.name.method.js"],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#4700A5"
+	// 			}
+	// 		},
+
+	// 		{
+	// 			"name": "Language methods",
+	// 			"scope": ["variable.language"],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#DD0907"
+	// 			}
+	// 		},
+
+	// 		{
+	// 			"name": "HTML Attributes",
+	// 			"scope": [
+	// 				"text.html.basic entity.other.attribute-name.html",
+	// 				"text.html.basic entity.other.attribute-name"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#e47105"
+	// 			}
+	// 		},
+
+	// 		{
+	// 			"name": "Decorators",
+	// 			"scope": [
+	// 				"tag.decorator.js entity.name.tag.js",
+	// 				"tag.decorator.js punctuation.definition.tag.js"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#4700A5"
+	// 			}
+	// 		},
+
+	// 		{
+	// 			"name": "ES7 Bind Operator",
+	// 			"scope": [
+	// 				"source.js constant.other.object.key.js string.unquoted.label.js"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#DD0907"
+	// 			}
+	// 		},
+
+	// 		{
+	// 			"name": "Markup - Italic",
+	// 			"scope": ["markup.italic"],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#DD0907"
+	// 			}
+	// 		},
+	// 		{
+	// 			"name": "Markup - Italic",
+	// 			"scope": [
+	// 				"markup.bold markup.italic",
+	// 				"markup.italic markup.bold",
+	// 				"markup.quote markup.bold",
+	// 				"markup.bold markup.italic string",
+	// 				"markup.italic markup.bold string",
+	// 				"markup.quote markup.bold string"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#DD0907"
+	// 			}
+	// 		},
+
+	// 		{
+	// 			"name": "Markup - Quote",
+	// 			"scope": ["markup.quote"],
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#DD0907"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "variable.other",
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#1FB714"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "entity.name.function",
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#FDA331"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "support.function",
+	// 			"settings": {
+	// 				"fontStyle": "italic",
+	// 				"foreground": "#FDA331"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "string",
+	// 			"settings": {
+	// 				"foreground": "#FBF305"
+	// 			}
+	// 		}
+	// 	]
+	// },
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.showExpandedAbbreviation": "always",
+	"workbench.preferredDarkColorTheme": "Better Solarized Dark Italics",
+	"workbench.preferredHighContrastColorTheme": "Better Solarized Dark Italics",
+	"workbench.colorCustomizations": {
+		// "terminal.background": "#000000",
+		"terminal.foreground": "#C0C0C0",
+		"terminalCursor.background": "#C0C0C0",
+		"terminalCursor.foreground": "#C0C0C0",
+		// "terminal.ansiBlack": "#000000",
+		"terminal.ansiBlue": "#0000D3",
+		"terminal.ansiBrightBlack": "#808080",
+		"terminal.ansiBrightBlue": "#0000D3",
+		"terminal.ansiBrightCyan": "#02ABEA",
+		"terminal.ansiBrightGreen": "#1FB714",
+		"terminal.ansiBrightMagenta": "#4700A5",
+		"terminal.ansiBrightRed": "#DD0907",
+		"terminal.ansiBrightWhite": "#FFFFFF",
+		"terminal.ansiBrightYellow": "#FBF305",
+		"terminal.ansiCyan": "#02ABEA",
+		"terminal.ansiGreen": "#1FB714",
+		"terminal.ansiMagenta": "#4700A5",
+		"terminal.ansiRed": "#DD0907",
+		"terminal.ansiWhite": "#C0C0C0",
+		"terminal.ansiYellow": "#FBF305",
+		// "tab.activeBackground": "#282c34",
+		// "activityBar.background": "#282c34",
+		// "sideBar.background": "#282c34",
+		// "tab.activeBorder": "#ff8000",
+		"peekView.border": "#E50A69AB",
+		"peekViewTitle.background": "#002b36",
+		"peekViewResult.background": "#00212b",
+		"peekViewEditor.background": "#002b36",
+		"peekViewEditor.matchHighlightBackground": "#00212bAB",
+		"[Better Solarized Dark Italics]": {
+			"editorCursor.foreground": "#42db21",
+			"terminalCursor.foreground": "#42db21"
+		}
+	},
+	"editor.semanticTokenColorCustomizations": {
+		"[Better Solarized Dark Italics]": {
+			"enabled": true,
+			"rules": {
+				"variable.declaration": "#d4fa00",
+				"magicFunction:python": "#ee0000",
+				"function.declaration:python": "#990000",
+				"*.decorator:python": "#0000dd",
+				"*.typeHint:python": "#5500aa",
+				"*.typeHintComment:python": "#aaaaaa",
+				"parameter:python": "#aaaaaa"
+			}
+		}
+	},
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"editor.cursorBlinking": "expand",
+	"terminal.integrated.cursorBlinking": true,
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorSurroundingLinesStyle": "all",
+	"editor.multiCursorPaste": "full",
+	"search.seedWithNearestWord": true,
+	"editor.cursorWidth": 4,
+	"oneDarkPro.bold": true,
+	"oneDarkPro.editorTheme": "Solarized",
+	"oneDarkPro.vivid": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"prettier.jsxBracketSameLine": true,
+	"prettier.useTabs": true,
+	"prettier.vueIndentScriptAndStyle": true,
+	"prettier.withNodeModules": true,
+	"gutterpreview.enableReferenceLookup": true,
+	"errorLens.statusBarIconsEnabled": true,
+	"errorLens.statusBarMessageEnabled": true,
+	"emulator.androidColdBoot": true,
+	"emulator.emulatorPathWindows": "C:\\Users\\DG MightyElf\\AppData\\Local\\Android\\Sdk\\emulator",
+	"dart.openDevTools": "flutter",
+	"html-css-class-completion.enableEmmetSupport": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"sonarlint.rules": {
+		"Web:BoldAndItalicTagsCheck": {
+			"level": "off"
+		},
+		"javascript:S1854": {
+			"level": "off"
+		},
+		"javascript:S1481": {
+			"level": "off"
+		},
+		"javascript:S1128": {
+			"level": "off"
+		}
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"better-comments.highlightPlainText": true,
+	"monokaiPro.fileIconsMonochrome": false,
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.fontFamily": "CaskaydiaCove NF",
+	"material-icon-theme.activeIconPack": "react_redux",
+	"material-icon-theme.hidesExplorerArrows": true,
+	"todohighlight.isEnable": false,
+	"workbench.productIconTheme": "material-product-icons",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"Windows PowerShell": {
+			"path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+		}
+	},
+	"powershell.powerShellDefaultVersion": "PowerShell (Store)",
+	"terminal.explorerKind": "external",
+	"terminal.external.windowsExec": "C:\\Users\\DG MightyElf\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+	"emmet.variables": {
+		"lang": "en",
+		"charset": "UTF-8"
+	}
+}
